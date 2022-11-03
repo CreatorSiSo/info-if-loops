@@ -1,0 +1,81 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 62.5%;
+  color: white;
+  background-color: hsl(0, 0%, 8%);
+  line-height: 2;
+}
+
+body {
+  font-size: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+code {
+  background-color: hsl(0, 0%, 18%);
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.2em;
+  line-height: inherit;
+  margin-block: 0;
+}
+
+ol {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+button {
+  border: none;
+  font-size: inherit;
+  color: inherit;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 4px;
+}
+
+input {
+  margin-inline: 1rem;
+  background-color: hsl(0, 0%, 16%);
+}
+
+button {
+  background-color: hsl(0, 0%, 40%);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 36%);
+}
+
+button:active {
+  background-color: hsl(0, 0%, 44%);
+}
+
+#article_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+#article_container > li {
+  border-bottom: 2px solid hsl(0, 0%, 30%);
+}
+
+
+/*# sourceMappingURL=/styles.dd855970.css.map */
